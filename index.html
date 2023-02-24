@@ -306,7 +306,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
         scrub: true
       }
     });
-    tl.from($(this).find(".word"), { opacity: 0.2, duration: 0.2, ease: "power1.out", stagger: { each: 0.4 } });
+    tl.from($(this).find(".word"), { opacity: 0.2, duration: 0.2, ease: "power1.out", stagger: { each: 0.5 } });
   });
   // Avoid flash of unstyled content
   gsap.set("[text-split]", { opacity: 1 });
